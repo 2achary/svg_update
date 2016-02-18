@@ -12,32 +12,20 @@ body {
   max-height: 120px;
 }
 .logo-text{
+  color: #BA8058;
   display:none;
 }
 .icon{
   height: 13px;
   width: 13px;
+}
+.margin-right{
   margin-right: 5px;
 }
-.icon-location{
-  height: 14px;
-  width:14px;
-}
-.icon-contact{
-  height: 13px;
-  width: 13px;
-  margin-right: 0;
-}
-.icon-location path{
+.icon path{
   fill: #39add1;
 }
-.icon path {
-  fill: #39add1;
-}
-.icon-contact path {
-  fill: #39add1;
-}
-.icon path:hover, .icon-location path:hover {
+a:hover > svg.icon *{
   fill: #111;
 }
 #container {
@@ -45,14 +33,12 @@ body {
   background: #fff;
   margin: 0 auto;
 }
-
 p {
   max-width: 350px;
   margin: 35px auto 0;
   line-height: 2em;
   text-align: left;
 }
-
 a {
   text-decoration: none;
   color: #39add1;
@@ -61,7 +47,6 @@ a {
   a:hover {
     color: #111;
   }
-
 header {
   padding-top: 10px;
 }
@@ -100,7 +85,6 @@ main {
       main li:last-child {
         margin-right: 0;
       }
-
 footer {
   width: 100%;
   margin-top: 100px;
@@ -112,7 +96,7 @@ footer {
   .logo-text{
     display:block;
   }
-  .logo{
+  .st1{
     display:none;
   }
 }
